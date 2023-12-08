@@ -1,0 +1,241 @@
+/*Conf de fontes do Site*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+/*Conf de cores do Site*/
+
+:root{
+
+    --cor1: #e5e5e5;
+    --cor2: #ffffff;
+    --cor3: #fca311;
+    --cor4: #14213d;
+    --cor5: #000000;
+
+}
+
+/*Conf dos Navegadores*/
+*{
+
+font-family: 'open_sauce', sans-serif;
+font-size: 18px;
+font-weight: 400;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+margin: 0%;
+padding: 0%;
+
+}
+
+/*Formatação do Body*/
+body {
+    background-color: #ffffff;
+}
+
+header {
+    max-width: 70%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #002855;
+    text-align: center;
+    border-radius: 0px 0px 12px 12px;
+    padding-top: 1rem;
+    box-shadow: 0px 4px 3px #e5e5e5;
+}
+
+nav li{
+    display: inline-block;
+    margin: 2rem 1rem;
+}
+
+nav a{
+    color: #ffffff;
+}
+
+nav a:hover{
+    color: #ffd60a;
+    border-bottom: 2px solid;
+}
+
+/*------------------------------------------Conf Main*/
+
+main {
+
+    width: 100%;
+    text-align: center;
+    margin: 0% auto;
+
+}
+
+/*------------------------------------------Conf Banner------------------------*/
+
+.banner {
+
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.cycle-slideshow img {
+
+    width: 100%;
+    height: 95%;
+    margin: 0;
+    text-align: center;
+
+}
+
+/*--------------------------------------Formatação dos Cards------------------------*/
+
+.cards {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    height: 20%;
+    margin-bottom: 4%;
+
+}
+
+/*-------------------Form do meio----------------------*/
+
+.meio img { 
+    width: 100%;
+    
+}
+
+/*------------------------Rodape-------------------*/
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.rodape a{
+    font-size: 150%;
+    color: #000000;
+    font-weight: 300;
+
+}
+
+.rodape p{
+    font-size: 150%;
+    color: #000000;
+    font-weight: 300;
+    }
+
+.rodape img{
+    width: 18%;
+    padding: 5%;
+
+}
+
+/*---------------------------------PAG CADASTRO--------------------*/
+
+.cadastro{
+    align-items: center;
+    text-align: center;
+    background-color: #ebebeb;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.cad{
+    width: 100%;
+}
+
+.cad h1{
+    color: #000000;
+    font-weight: 700;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#cadastro input[type="text"], input[type="email"], input[type="password"]{
+
+    width: 400px;
+    height: 50px;
+    color: #000000;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 1%;
+}
+
+#cadastro input [type="radio"]{
+    margin-left: 5%;
+}
+
+#cadastro input[type="button"]{
+    width: 250px;
+    height: 50px;
+    padding: 0%;
+    background-color: #0a1128;
+    color: #ffffff;
+    border: none;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+
+#cadastro input[type="button"]:hover{
+    background-color: #fca311;
+    cursor: pointer;
+}
+
+/*-----------------------------CONF PAG ENTRAR--------------------*/
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 2% auto;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.logar {
+    width: 100%;
+}
+
+#logar1 {
+    width:100%;
+}
+
+.logar h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 1%;
+}
+
+.logar input[type="button"]{
+    width: 250px;
+    height: 50px;
+    background-color: #0a1128;
+    border: none;
+    margin-top: 1%;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.logar input[type="button"]:hover{
+    background-color: #fca311;
+    cursor: pointer;
+}
+
+.logar ul {
+    margin-top: 1%;
+}
